@@ -2,9 +2,9 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
+
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 body {
@@ -15,7 +15,6 @@ body {
     rgba(100, 115, 255, 1) 100%
   );
 }
-
 
 .todoApp {
   display: flex;
@@ -42,7 +41,6 @@ h1 {
 }
 
 .todo-form {
-  
   margin-bottom: 32px;
 }
 
@@ -139,10 +137,12 @@ h1 {
 }
 
 .delete-icon {
+  background-color: black;
   margin-right: 5px;
   color: #fff;
 }
 
 .edit-icon {
+  background-color: black;
   color: #fff;
 }
